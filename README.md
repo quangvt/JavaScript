@@ -1,7 +1,7 @@
 Store JavaScript Functions
 
-1. StringProcess.js
+1. StringProcessing.js
 
-2. NumberProcess.js
+2. NumberProcessing.js
 
-3. DateProcess.js
+3. DateProcessing.js
