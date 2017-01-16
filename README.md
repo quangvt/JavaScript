@@ -1,13 +1,7 @@
-# Store Some JavaScript Functions
-# Function Name: [Your Function Name]
-# Function List
-#   Find Shortest Word
+Store JavaScript Functions
 
-###############################################################################
-# Function Name: Find Shortest Word
-function findShortest(s){
-	return (s) = s.split(' ').sort((a, b) => a.length - b.length)[0].length
-}
-# Test
-var s = "bitcoin take over the world maybe who knows perhaps";
-findShortest(s);
+1. StringProcess.js
+
+2. NumberProcess.js
+
+3. DateProcess.js
