@@ -10,3 +10,11 @@ function findShortest(s){
 # Test
 var s = "bitcoin take over the world maybe who knows perhaps";
 findShortest(s);
+
+###############################################################################
+# Function Name: Count Number of Whitespace in Statement
+var testString = "How many spaces are there in this sentence?";
+var expression = /\s+/g;
+// This code counts the matches of expression in testString
+var spaceCount = testString.match(expression).length;
+
