@@ -5,7 +5,8 @@
 #   Find Longest Word
 #   Title Case a Sentence
 #   Repeat String Num Times
-
+#   Truncate String (add ...)
+#   Chunk Array In Group => Split by size
 
 ###############################################################################
 # Function Name: Find Shortest Word
@@ -74,4 +75,38 @@ function repeatStringNumTimes(str, num) {
   return str.repeat(num);
 }
 
-repeatStringNumTimes("abc", 3);
+###############################################################################
+# Function Name: Truncate String (add ...)
+function truncateString(str, num) {
+  // Clear out that junk in your trunk
+  if (num <= 3) {
+    return str.slice(0,  Math.min(num, 3)) + "...";
+  } 
+  
+  if (str.length <= num) {
+    return str;
+  } else {
+    return str.slice(0, num - 3) + "...";
+  }
+  
+  return str;
+}
+
+truncateString("A-tisketq a-tasket A green and yellow basket", 11);
+
+###############################################################################
+# Function Name: Chunk Array In Group => Split by size
+function chunkArrayInGroups(arr, size) {
+  // Break it up.
+  var chunks = [];
+      i = 0;
+      n = arr.length;
+
+  while (i < n) {
+    chunks.push(arr.slice(i, i += size));
+  }
+
+  return chunks;
+}
+
+chunkArrayInGroups(["a", "b", "c", "d"], 3);
