@@ -1,5 +1,5 @@
-Profile Lookup 
-
+// Profile Lookup 
+/*
 We have an array of objects representing different people in our contacts lists.
 A lookUpProfile function that takes firstName and a property (prop) as arguments has been
  pre-written for you.
@@ -8,7 +8,7 @@ The function should check if firstName is an actual contact's firstName and the 
 If both are true, then return the "value" of that property.
 If firstName does not correspond to any contacts then return "No such contact"
 If prop does not correspond to any valid properties then return "No such property"
-
+*/
 =========================================================================================
 // Code
 //Setup
